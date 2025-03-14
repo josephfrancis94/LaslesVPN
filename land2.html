@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./land2.css">
+</head>
+<body class="bg-dark text-white">
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Oyindamola</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="#about">About me</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="container text-center py-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-start">
+                <h1>Hi, I am <br> Oyindamola Bakare</h1>
+                <p class="text-secondary">Frontend Developer</p>
+                <a href="#" class="btn btn-success">Download CV</a>
+                <a href="#" class="btn btn-outline-light">Learn More</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="profile.jpg" class="img-fluid rounded-circle border border-dark" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="text-center py-5">
+        <div class="container">
+            <h2>About</h2>
+            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="container py-5">
+        <h2 class="text-center">My Skills</h2>
+        <div class="row text-center">
+            <div class="col-md-3">50% <span class="text-success">HTML</span></div>
+            <div class="col-md-3">20% <span class="text-success">CSS</span></div>
+            <div class="col-md-3">10% <span class="text-success">JavaScript</span></div>
+            <div class="col-md-3">2% <span class="text-success">PHP</span></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container py-5">
+        <h2 class="text-center">Get in touch</h2>
+        <form>
+            <div class="row mb-3">
+                <div class="col-md-6"><input type="text" class="form-control" placeholder="Name"></div>
+                <div class="col-md-6"><input type="text" class="form-control" placeholder="Last name"></div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6"><input type="email" class="form-control" placeholder="Email"></div>
+                <div class="col-md-6"><input type="text" class="form-control" placeholder="Phone number"></div>
+            </div>
+            <textarea class="form-control mb-3" rows="4" placeholder="Message"></textarea>
+            <button class="btn btn-success w-100">Submit now</button>
+        </form>
+    </section>
+
+    <footer class="text-center py-3">
+        <p>&copy; Oyindamola 2020</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

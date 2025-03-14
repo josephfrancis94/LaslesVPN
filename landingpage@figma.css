@@ -1,0 +1,137 @@
+body {
+          font-family: ;
+          margin: 0;
+          padding: 0;
+          background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+          color: #333;
+          text-align: center;
+}
+
+a {
+          text-decoration: none;
+}
+
+.navbar {
+          display: flex;
+          justify-content: space-between;
+          padding: 20px;
+          background-color: #fff;
+}
+
+.nav-links {
+          list-style: none;
+          display: flex;
+          gap: 20px;
+}
+
+.nav-links li a {
+          color: #333;
+          font-weight: bold;
+}
+
+.auth-buttons a {
+          margin-left: 10px;
+          padding: 10px 15px;
+          border-radius: 5px;
+}
+
+.sign-in {
+          color: #333;
+}
+.sign-up {
+          background-color: red;
+          color: white;
+}
+
+.hero {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 50px;
+          background-color: #fff;
+}
+
+.hero-content {
+          max-width: 50%;
+}
+.hero-content h1 {
+          font-size: 32px;
+}
+
+.cta-button {
+          display: inline-block;
+          background-color: red;
+          color: white;
+          padding: 10px 20px;
+          margin-top: 20px;
+          border-radius: 5px;
+}
+
+.features {
+          display: flex;
+          justify-content: space-around;
+          padding: 50px;
+}
+.feature {
+          text-align: center;
+}
+
+.benefits li {
+          list-style-image: url(./Group1120.png);
+}
+
+.pricing {
+          padding: 50px;
+          background-color: #fff;
+}
+.pricing-container {
+          display: flex;
+          justify-content: center;
+          gap: 20px;
+}
+
+.plan {
+          background: #fff;
+          padding: 20px;
+          border: 1px solid #ddd;
+          text-align: center;
+          border-radius: 5px;
+}
+.plan .price {
+          font-size: 24px;
+          color: red;
+}
+.select-btn {
+          display: block;
+          background: red;
+          color: white;
+          padding: 10px;
+          margin-top: 10px;
+          border-radius: 5px;
+}
+
+.testimonials {
+          padding: 50px;
+}
+.testimonial-container {
+          background: #fff;
+          padding: 20px;
+          border-radius: 5px;
+          max-width: 30%;
+}
+
+.
+footer {
+          text-align: center;
+          padding: 20px;
+          background-color: #222;
+          color: white;
+}
+.footer-links {
+          display: flex;
+          justify-content: center;
+          gap: 20px;
+}

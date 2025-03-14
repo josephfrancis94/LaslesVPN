@@ -1,0 +1,98 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+/* Custom Styles */
+body {
+          font-family: 'Arial', sans-serif;
+      }
+      
+      /* Hero Section */
+      .hero {
+          background-color: #fff;
+      }
+      
+      /* Features */
+      .features h3 {
+          font-size: 2rem;
+          color: red;
+      }
+      .features {
+          border-radius: 50px;
+      }
+      
+      /* Pricing */
+      .pricing .card {
+          border-radius: 10px;
+      }
+      
+      .price {
+          font-size: 1.5rem;
+          font-weight: bold;
+      }
+      
+      .border-danger {
+          border: 2px solid red !important;
+      }
+      
+      /* Testimonials */
+      .testimonials .card {
+          border-radius: 10px;
+      }
+      
+      /* Footer */
+      footer {
+          background: #222;
+          color: white;
+      }
+
+ul {
+    list-style: none;
+    list-style-position: outside;
+    padding-left: 0 !important;
+    /* Removes default bullets */
+    /* padding-left: 30px; */
+  }
+  
+  ul.benefits li {
+    position: relative;
+    padding-left: 30px;
+  }
+  
+  ul.benefits li::after {
+    content: "";
+    background: url("./assets/icons/Group1120.png") no-repeat center;
+    background-size: contain; /* Ensures the icon fits */
+    width: 20px; /* Adjust the size */
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); /* Centers the icon */
+  }
+
+        /* .benefits li {
+            list-style-image: url(./Group1120.png);
+        } */
+
+      .list li {
+        list-style-image: url(./jam_check.png);
+      }
+
+      .sponsor li {
+        list-style: none;
+      }
+
+      .card img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+
+      .user-info h4{
+        font-weight: 600;
+        font-size: 18px;
+      }
